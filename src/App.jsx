@@ -21,6 +21,7 @@ import Work from './Home/Work'
 import Featured from './Home/Featured'
 import About from './Pages/About'
 import OurMission from './Pages/OurMission'
+import Study from './Pages/Study'
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/featured" element={<Featured />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/ourmission" element={<OurMission />}></Route>
+          <Route path="/study" element={<Study />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
